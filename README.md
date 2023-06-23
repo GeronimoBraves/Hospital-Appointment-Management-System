@@ -21,7 +21,7 @@ Blog page: This page is designed to display all the articles, blogs, and notices
   
 - Appointment Page  
   <img src="/images/OP6.jpg">
-  <img src="/images/op10.jpg">
+  <img src="/images/OP10.jpg">
 - Services Page
   <img src="/images/OP7.jpg">
 - Blog Page
