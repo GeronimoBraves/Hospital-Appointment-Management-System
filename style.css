@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/* Navbar */
+.nav-logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand {
+    background-color: #fff;
+    color: #314e45;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Container holding the image and the text */
+
+.content-images{
+    background: url(images/jonathan-borba-8tvzA0WymTA-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-color:transparent;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    opacity:0.7;
+
+}
+ /*Bottom left text*/
+  .bottom-left {
+    position: absolute;
+    bottom: 260px;
+    left: 16px;
+    top:150px;
+    font-size:20px;
+  }
+.bottom-left h1{
+    text-decoration-color: #314e45;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.bottom-left h2{
+    text-decoration-color:#314e45;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom-left h3{
+    text-decoration-color:black;
+    -webkit-text-fill-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+ 
+}
+.button a{
+    text-decoration:none;
+    display:inline-block;
+    padding:8px 16px;
+}
+.button a:hover{
+    background-color: #314e45;
+    color:black;
+}
+.button Book An Appointment{
+    background-color: #314e45;
+    color:black;
+    border-radius:5px;
+    box-shadow: rgb(204,219,232);
+}
+.button Find A Doctor{
+    background-color:#314e45;
+    color:white;
+    border: radius 5px;
+    box-shadow: rgb(204,219,232);
+}
+.rectangle{
+    position:absolute;
+    left:50%;
+    top:135%;
+    transform:translate(-50%,-50%);
+    width:970px;
+    height:200px;
+    background:#314e45;
+    opacity:0.45;
+    border: 5px solid black;
+}
+.rectangle button{
+    font-size:15px;
+    padding: 15px 9px;
+    border-radius:3px;
+    margin:50px 50px;
+    border:3px solid black;
+}
+.rectangle p{
+    font-size: 20px;
+    font-style: normal;
+    color:#314e45;
+}
+.Doctors Choosing{
+    padding:2rem 7%
+}
+.heading-doctors{
+    text-align:center;
+}
+.heading-doctors h1{
+    font-size:40px;
+    padding:5rem;
+}
+.heading-doctors h1 span{
+    color:#314e45;
+}
+.main-doctors{
+    display:flex;
+    align-items: center;
+    flex-wrap:nowrap;
+}
+.main-inner-doctors{
+    flex: 1 1 45rem;
+}
+.main-inner-doctors img{
+    width:100%;
+    padding:0rem;
+}
+.right-doctors-content{
+    padding: 0 4rem;
+}
+.right-doctors-content h2{
+    font-size: 20px;
+    padding: 4rem 0;
+    color:#314e45;
+}
+.right-doctors-content p{
+    font-size: 1.0rem;
+    line-height: 3rem;
+}
+.right-doctors-content button{
+    padding:2rem 3rem;
+    background:var(--button-color);
+    color:rgb(26, 97, 76);
+    font-size: 1rem;
+}
+.Departments{
+    text-align:center;
+}
+
+.Departments h1{
+    font-size:40px;
+    padding:5rem;
+}
+.Departments h1 span{
+    color:#314e45;
+}
+
+
+.Ccontainer{
+
+	position: relative;
+	width:1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 8%;
+}
+
+.Ccontainer .card{
+	width:308px;
+	position: relative;
+	height: 400px;
+	background: #f7f6f1;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #314e45;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+}
+.Ccontainer .card .imgBx{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:20px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+
+}
+
+.Ccontainer .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.imgBx:hover img{
+	transform: scale(1.1);
+}
+  
+  

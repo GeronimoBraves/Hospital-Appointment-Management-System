@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/* Navbar */
+.nav-logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand {
+    background-color: #fff;
+    color: #314e45;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Blog Content */
+.content {
+    padding-right: 100px;
+    text-align: justify;
+}
+.blog-nav {
+    background-color: #314e45;
+}
+.blog-nav p {
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+}
+.blog-btn {
+    background-color: #314e45;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: left;
+}
+.blog-btn:hover {
+    background-color: #445c54;
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: #445c54;
+}
+.dropdown-item {
+    border: none;
+    color: #fff;
+}
+.dropdown-item:hover {
+    color: #314e45;
+}
+
+/* Care Form */
+.care-form {
+    background-color: #314e45;
+    color: #fff;
+    border-radius: 10px;
+}
+.care-form p {
+    font-size: 18px;
+}
+.form-color {
+    color: #445c54;
+}
+.form-submit {
+    background-color: #fff;
+    color: #314e45;
+}
+.fsub {
+    text-align: center;
+}

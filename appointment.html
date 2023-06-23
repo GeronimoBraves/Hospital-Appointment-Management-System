@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+            <link rel="stylesheet" href="appointment-style.css">
+        <title>Appointment</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="container-fluid" style="background-color: #314e45;">
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <div class="nav-logo">
+                    <a href="#" class="navbar-brand" style="color:#314e45;">City Hospital</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems" aria-controls="menuItems" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="menuItems">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="appointment.html" class="nav-link active">Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Doctor Showcase -->
+        <div class="container doc-showcase px-5">
+            <div class="row gx-5">
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-4 prof">
+                    <div class="doc-details shadow">
+                        <div class="doc-prof">
+                            <div class="docimg">
+                                <img src="/images/doctor_profile.jpg" alt="Doctor Profile">
+                            </div>
+                            <p>Dr. John Doe <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci accusamus nemo quae incidunt facilis necessitatibus reiciendis, amet natus! Labore delectus, repudiandae beatae veniam consequuntur laborum veritatis voluptatem officia inventore id!</p>  
+                        </div>
+                        <div class="bookbtn">
+                            <a href="#" class="btn btn-dark mx-5 bookapp">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load">
+                <a href="#" class="btn loadbtn" id="loadMore">Load More</a>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered model-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Please fill your details below before proceeding</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="/sign_up" method="POST">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname"  name="fname"placeholder="Enter First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname"  name="lname"placeholder="Enter Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob"  name="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Enter Address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email"  name="email" placeholder="Enter Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone"  name="phone" placeholder="Enter Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ophone">Other Phone Number</label>
+                            <input type="tel" class="form-control" id="ophone" name="ophone" placeholder="Enter Other Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <input type="text" class="form-control" id="gender" name="gender" placeholder="Enter Gender" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bld">Blood Group</label>
+                            <input type="text" class="form-control" id="bld" name="bld" placeholder="Enter Blood Group" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="extra">Extra Details or Information if any</label>
+                            <textarea class="form-control" name="extra" id="extra" cols="30" rows="5">Enter here...</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastap">Last Appointment Date if applicable</label>
+                            <input type="date" class="form-control" id="lastap" name="lastap">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn close" data-bs-dismiss="modal">Close</button>
+                            <input type="submit" value="Submit" id="submit" class="btn proceed btn-dark shadow">
+                            <!-- <button type="button" class="btn proceed btn-dark">Proceed</button> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment -->
+    <div class="container appointment">
+        <h4>Doctor's Weekly Timings</h4>
+        <div id="picker"></div>
+        <div>
+            <br><br>
+            <p>Selected dates / times:</p>
+            <div id="selected-dates"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="mark-your-calendar.js"></script>
+    <script type="text/javascript">
+        (function($) {
+          $('#picker').markyourcalendar({
+            availability: [
+              ['1:00', '2:00', '3:00', '4:00', '5:00'],
+              ['2:00'],
+              ['3:00'],
+              ['4:00'],
+              ['5:00'],
+              ['6:00'],
+              ['7:00']
+            ],
+            isMultiple: true,
+            onClick: function(ev, data) {
+              // data is a list of datetimes
+              console.log(data);
+              var html = ``;
+              $.each(data, function() {
+                var d = this.split(' ')[0];
+                var t = this.split(' ')[1];
+                html += `<p>` + d + ` ` + t + `</p>`;
+              });
+              $('#selected-dates').html(html);
+            },
+            onClickNavigator: function(ev, instance) {
+              var arr = [
+                [
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['1:00', '5:00'],
+                  ['2:00', '5:00'],
+                  ['3:30'],
+                  ['2:00', '5:00'],
+                  ['2:00', '5:00'],
+                  ['2:00', '5:00']
+                ],
+                [
+                  ['2:00', '5:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['4:00', '5:00'],
+                  ['2:00', '5:00'],
+                  ['2:00', '5:00'],
+                  ['2:00', '5:00'],
+                  ['2:00', '5:00']
+                ],
+                [
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00']
+                ],
+                [
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00'],
+                  ['4:00', '5:00']
+                ],
+                [
+                  ['4:00', '6:00'],
+                  ['4:00', '6:00'],
+                  ['4:00', '6:00'],
+                  ['4:00', '6:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['4:00', '6:00'],
+                  ['4:00', '6:00']
+                ],
+                [
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['3:00', '6:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00'],
+                  ['3:00', '6:00']
+                ],
+                [
+                  ['3:00', '4:00'],
+                  ['3:00', '4:00'],
+                  ['3:00', '4:00'],
+                  ['3:00', '4:00'],
+                  ['3:00', '4:00'],
+                  ['3:00', '4:00'],
+                  ['4:00', '5:00', '6:00', '7:00', '8:00']
+                ]
+              ]
+              var rn = Math.floor(Math.random() * 10) % 7;
+              instance.setAvailability(arr[rn]);
+            }
+          });
+        })(jQuery);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+    <script>
+        $(document).ready (function () {
+          $(".prof").slice(0, 6).show();
+          $(".appointment").hide();
+          $(".loadbtn").on("click",function(){
+            $(".prof:hidden").slice(0,6).show();
+
+            if($(".prof:hidden").length == 0)
+            {
+                $(".loadbtn").fadeOut();
+            }
+          });
+          $(".proceed").on("click",function(){
+            $(".doc-showcase").hide();
+            $(".appointment").show();
+          });
+          })
+    </script>
+    </body>
+
+</html>

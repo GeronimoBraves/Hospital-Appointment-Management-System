@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+/* Navbar */
+.nav-logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand {
+    background-color: #fff;
+    color: #314e45;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dropdown-menu {
+    background-color: #445c54;
+}
+.dropdown-item {
+    border: none;
+    color: #fff;
+}
+.dropdown-item:hover {
+    color: #314e45;
+}
+/* Services Content */
+.s-title {
+    background-color: #314e45;
+    color: #fff;
+}
+.col-md-6 img {
+    border: 1px solid #314e45;
+}
+.care-form {
+    background-color: #314e45;
+    color: #fff;
+    border-radius: 10px;
+}
+.care-form p {
+    font-size: 18px;
+}
+.contact {
+    background-color:#314e45;
+}
+.form-color {
+    color: #445c54;
+}
+.form-submit {
+    background-color: #314e45;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.fsub {
+    text-align: center;
+}
+.form-submit:hover {
+    background-color: #fff;
+    border: 1px solid #314e45;
+}
+iframe {
+    background-color: #314e45;
+}
+footer {
+    background-color: #314e45;
+    color: #fff;
+    text-align: center;
+}
+.social-submit {
+    background-color: #fff;
+    color: #314e45;
+}
+.social-submit:hover {
+    background-color: #314e45;
+    border: 1px solid #fff;
+    color: #fff;
+}
